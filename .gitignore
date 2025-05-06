@@ -1,0 +1,6 @@
+**/datasets/
+**/models/
+**/input/
+**/model/
+*.tar.gz
+*.tar

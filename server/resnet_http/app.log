@@ -1,0 +1,39 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.4.162:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 10:44:26] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 10:48:38] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 10:55:00] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:00:19] "POST /endpoint HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.4.162:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:17:51] "POST /create HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:17:55] "[31m[1mPOST /result HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:18:19] "GET /result HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:18:27] "[31m[1mPOST /result HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:18:32] "GET /result HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.4.162:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.4.162:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:24:31] "POST /result HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:24:36] "POST /create HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.25.4.162:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 11:24:50] "POST /create HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 14:18:03] "POST /create HTTP/1.1" 200 -
+INFO:werkzeug:172.28.193.179 - - [16/Jun/2023 14:18:10] "POST /result HTTP/1.1" 200 -
