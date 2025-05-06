@@ -1,6 +1,5 @@
-yolov5s
-
-server启动：
+# yolov5s
+## server启动
 1. 将yolov5s_se5_test.tar.gz下载到盒子上并解压
 2. 进入yolov5s_se5_test文件夹，可以看到一个tar包与一个run_docker.sh脚本
 3. 使用load命令加载镜像：docker load -i yolov5s_http.tar
@@ -15,7 +14,7 @@ server启动：
 则后续client端需将url中端口设为5001
 server端端口设定在httpdemo.py中定义
 
-client请求
+## client请求
 1. 将yolov5s_client.tar.gz下载到客户端并解压
 2. 三个脚本均为发送http POST请求脚本 修改三个py文件中的url的ip地址:端口号为盒子的ip地址与该服务的端口（上文提及） 确保客户端服务器能连通盒子
 3. 修改http_create.py中payload变量中video_pt字段的值，提供了各种案例供参考，支持本地文件、rtsp/rtmp推流、uri；bmodel字段可以修改量化模型，支持fp32与int8
@@ -26,7 +25,7 @@ client请求
 
 
 
-以ppocr为例：
+# ppocr
 1. 把ppocr_http_base.tar.gz解压到docker中。
 2. cd ppocr_http
 3. pip3 install python/*whl 
@@ -41,8 +40,8 @@ client请求
 10. python3 http_eval.py #等待盒子完成推理并运行精度测试脚本，返回精度信息。
 默认测试fp32，如果测试int8，把http_create.py和http_eval.py里面的fp32换成int8即可
 
-segformer运行方式同ppocr
-resnet运行方式同ppocr
+# segformer运行方式同ppocr
+# resnet运行方式同ppocr
 
 resnet的client可复用yolov5s的client，其中create中的video_pt字段失效
 resnet的result脚本会获取最近处理的十张图片的结果并保存到当前目录下的img_with_results目录中，其中图片的文件名为图片中物体的分类名。
